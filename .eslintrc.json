@@ -16,12 +16,14 @@
       "jsx": true
     },
     "ecmaVersion": "latest",
-    "project": "./tsconfig.json",
+    "project": ["./tsconfig.json", "./tsconfig.eslint.json"],
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
   "rules": {
     "react/react-in-jsx-scope": "off",
-    "@typescript-eslint/comma-dangle": ["error", "never"]
+    "import/no-import-module-exports": "off",
+    "import/no-extraneous-dependencies": "off",
+    "@typescript-eslint/comma-dangle": ["error", "only-multiline"]
   }
 }

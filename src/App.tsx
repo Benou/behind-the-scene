@@ -1,5 +1,7 @@
+import HelloWorld from './components/HelloWorld/HelloWorld';
+
 function App() {
-  return <p>Hello World!</p>;
+  return <HelloWorld />;
 }
 
 export default App;
