@@ -42,8 +42,22 @@
     "lint-staged": "lint-staged --allow-empty",
     "lint:commit": "commitlint --edit $1",
     "test": "react-scripts test",
-    "test:ci": "react-scripts test --ci --watchAll=false",
+    "test:ci": "react-scripts test --ci --watchAll=false --coverage",
     "prepare": "husky install"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{ts,tsx}",
+      "!src/index.tsx"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 50,
+        "functions": 50,
+        "lines": 50,
+        "statements": 50
+      }
+    }
   },
   "browserslist": {
     "production": [

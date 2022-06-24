@@ -20,6 +20,7 @@
     "sourceType": "module"
   },
   "plugins": ["react", "@typescript-eslint"],
+  "ignorePatterns": ["coverage"],
   "rules": {
     "react/react-in-jsx-scope": "off",
     "import/no-import-module-exports": "off",
