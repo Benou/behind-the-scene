@@ -50,6 +50,10 @@
       "src/**/*.{ts,tsx}",
       "!src/index.tsx"
     ],
+    "coverageReporters": [
+      "cobertura",
+      "text"
+    ],
     "coverageThreshold": {
       "global": {
         "branches": 50,
