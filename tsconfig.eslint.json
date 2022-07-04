@@ -1,3 +1,3 @@
 {
-  "include": ["commitlint.config.ts"]
+  "include": ["commitlint.config.ts", "playwright.config.ts"]
 }
