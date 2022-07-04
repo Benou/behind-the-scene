@@ -1,6 +1,4 @@
-[![codecov](https://codecov.io/gh/Benou/behind-the-scene/branch/master/graph/badge.svg?token=TC21PFJHZV)](https://codecov.io/gh/Benou/behind-the-scene)
-
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Benou_behind-the-scene&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Benou_behind-the-scene)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Benou_behind-the-scene&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Benou_behind-the-scene) [![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Benou_behind-the-scene&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Benou_behind-the-scene)
 
 # Getting Started with Create React App
 
