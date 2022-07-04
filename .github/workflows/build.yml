@@ -26,13 +26,6 @@ jobs:
       - name: Run unit tests
         run: npm run test:ci
 
-      - name: Upload coverage
-        uses: codecov/codecov-action@v3
-        with:
-          token: ${{ secrets.CODECOV_TOKEN }}
-          directory: './coverage/'
-          files: 'lcov.info'
-
       - name: Code analysis
         uses: sonarsource/sonarcloud-github-action@master
         env:
